@@ -10,7 +10,7 @@ myForm.onsubmit = function(ev) {
   var age = this.age.value;
   var birthplace = this.birthplace.value;
 
-
+  var colorDiv = '<div style="height: 100px; width: 100px; background-color: ' +hairColor + '"></div>'
   //details.innerHTML += '<p>' + firstName + '</p>';
   //details.innerHTML += '<p>' + hairColor + '</p>';
   //details.innerHTML += '<p>' + age + '</p>';
@@ -23,7 +23,7 @@ myForm.onsubmit = function(ev) {
     <dd>' + firstName + '</dd> \
         \
     <dt>Hair Color</dt> \
-    <dd>' + hairColor + '</dd> \
+    <dd>' + colorDiv + '</dd> \
       \
     <dt>Age</dt> \
     <dd>' + age + '</dd> \
